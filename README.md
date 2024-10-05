@@ -15,6 +15,7 @@ MusicDownloader es una aplicación de escritorio en Python que permite buscar y 
 ## Requisitos
 
 - Python 3.11
+- ffmpeg
 - Módulos de Python:
     - pytube
     - yt-dlp
@@ -30,14 +31,11 @@ git clone https://github.com/tu-usuario/MusicDownloader.git
 
 pip install pytube yt-dlp
 
-Asegúrate de tener ffmpeg instalado y en la ruta indicada en el código. Si no lo tienes, descárgalo aquí y ajusta la ubicación en el archivo controller.py:
+instala ffmpeg desde https://github.com/yt-dlp/FFmpeg-Builds#ffmpeg-static-auto-builds según tu sistema operativo.
 
-'ffmpeg_location': 'path/to/ffmpeg',
-'ffprobe_location': 'path/to/ffprobe'
+Asegúrate de tener ffmpeg instalado y en una carpeta "utils".
 
 ## Uso:
-Clona o descarga el repositorio.
-
 Ejecuta la aplicación con:
 
 python controller.py
